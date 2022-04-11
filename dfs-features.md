@@ -4,16 +4,19 @@
 ### Transparency
 Transparency refers to hiding details from a user. The following types of transparency are 
 desirable.
-i. Structure transparency: Multiple file servers are used to provide better performance, 
+- Structure transparency: Multiple file servers are used to provide better performance, 
 scalability, and reliability. The multiplicity of file servers should be transparent to the client of a 
 distributed file system. Clients should not know the number or locations of file servers or the 
 storage devices instead it should look like a conventional file system offered by a centralized, 
 time sharing operating system.
-ii. Access transparency: Local and remote files should be accessible in the same way. The file 
+ii. 
+- Access transparency: Local and remote files should be accessible in the same way. The file 
 system should automatically locate an accessed file and transport it to the client’s site.
-iii. Naming transparency: The name of the file should not reveal the location of the file. The 
+iii. 
+- Naming transparency: The name of the file should not reveal the location of the file. The 
 name of the file must not be changed while moving from one node to another.
-iv. Replication transparency: The existence of multiple copies and their locations should be 
+iv. 
+- Replication transparency: The existence of multiple copies and their locations should be 
 hidden from the clients where files are replicated on multiple nodes.
 ### User mobility
 The user should not be forced to work on a specific node but should have the flexibility to work 
@@ -32,5 +35,4 @@ A good DFS should cope with an increase of nodes and not cause any disruption of
 Scalability also includes the system to withstand high service load, accommodate growth of users 
 and integration of resources.
 ### High availability
-A distributed file system should continue to function even in partial failures such as a link 
-failure, a node failure, o
+A distributed file system should continue to function even in partial failures.
