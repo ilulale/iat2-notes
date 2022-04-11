@@ -18,6 +18,7 @@ name of the file must not be changed while moving from one node to another.
 iv. 
 - Replication transparency: The existence of multiple copies and their locations should be 
 hidden from the clients where files are replicated on multiple nodes.
+
 ### User mobility
 The user should not be forced to work on a specific node but should have the flexibility to work 
 on different nodes at different times. This can be achieved by automatically bringing the users 
