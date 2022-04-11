@@ -36,3 +36,17 @@ Scalability also includes the system to withstand high service load, accommodate
 and integration of resources.
 ### High availability
 A distributed file system should continue to function even in partial failures.
+### High reliability
+Probability of loss of stored data should be minimized. System should automatically generate 
+backup copies of critical files in event of loss.
+### Data integrity
+Concurrent access requests from multiple users who are competing to access the file must be 
+properly synchronized by the use of some form of concurrency control mechanism. Atomic 
+transactions can also be provided to users by a file system for data integrity.
+### Security
+A distributed file system must secure data so that its users are confident of their privacy. File 
+system should implement mechanisms to protect data that is stored within.
+### Heterogeneity
+Distributed file system should allow various types of workstations to participate in sharing files 
+via distributed file system. Integration of a new type of workstation or storage media should be 
+designed by a DFS.
